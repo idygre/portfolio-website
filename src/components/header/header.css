@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 85vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -39,13 +39,13 @@ header {
 /*------Header Image------*/
 .me {
   /* background: linear-gradient(var(--color-primary), transparent); */
-  width: 22rem;
-  height: 30rem;
+  width: 28rem;
+  height: 38rem;
   position: absolute;
-  left: calc(50% - 11rem); /* 50% the length minus half the width */
-  margin-top: 1rem;
+  left: calc(50% - 14rem); /* 50% the length minus half the width */
+  margin-top: 5rem;
   overflow: hidden;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
 }
 
 /*------Scroll Down-----*/
@@ -61,18 +61,28 @@ header {
 /* Media Queries (Medium Devices) */
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 85vh;
   }
 }
 
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 85vh;
   }
-}
 
-.header__socials,
-.scroll__down {
-  display: none;
+  .me {
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem); /* 50% the length minus half the width */
+    margin-top: 5rem;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
 }
