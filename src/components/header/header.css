@@ -1,6 +1,6 @@
 header {
-  height: 85vh;
-  padding-top: 7rem;
+  height: 90vh;
+  padding-top: 2rem;
   overflow: hidden;
 }
 
@@ -10,7 +10,7 @@ header {
   position: relative;
 }
 
-/*------CTA------*/
+/*------Resume, email header buttons------*/
 .cta {
   margin-top: 2.5rem;
   display: flex;
@@ -61,24 +61,18 @@ header {
 /* Media Queries (Medium Devices) */
 @media screen and (max-width: 1024px) {
   header {
-    height: 85vh;
+    height: 100vh;
+    padding-top: 5rem;
+    overflow: hidden;
   }
 }
 
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
   header {
-    height: 85vh;
-  }
-
-  .me {
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem); /* 50% the length minus half the width */
-    margin-top: 5rem;
+    height: 100vh;
+    padding-top: 5rem;
     overflow: hidden;
-    padding: 0;
   }
 
   .header__socials,
