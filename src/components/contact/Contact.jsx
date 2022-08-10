@@ -12,15 +12,16 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail />
+            <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>glora2019@fau.edu</h5>
             <a href="mailto:glora2019@fau.edu">Send a Message</a>
           </article>
 
           <article className="contact__option">
-            <BsLinkedin />
+            <BsLinkedin className="contact__option-icon" />
             <h4>LinkedIn</h4>
+            <h5>Connect With Me</h5>
             <a href="https://www.linkedin.com/in/greydi-lora-62193519b/">
               Send a Message
             </a>
