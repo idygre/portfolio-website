@@ -1,6 +1,6 @@
 header {
-  height: 90vh;
-  padding-top: 2rem;
+  height: 100vh;
+  padding-top: 7rem;
   overflow: hidden;
 }
 
@@ -39,13 +39,13 @@ header {
 /*------Header Image------*/
 .me {
   /* background: linear-gradient(var(--color-primary), transparent); */
-  width: 28rem;
-  height: 38rem;
+  width: 22rem;
+  height: 30rem;
   position: absolute;
-  left: calc(50% - 14rem); /* 50% the length minus half the width */
-  margin-top: 5rem;
+  left: calc(50% - 11rem); /* 50% the length minus half the width */
+  margin-top: 4rem;
   overflow: hidden;
-  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /*------Scroll Down-----*/
@@ -61,7 +61,7 @@ header {
 /* Media Queries (Medium Devices) */
 @media screen and (max-width: 1024px) {
   header {
-    height: 100vh;
+    height: 90vh;
     padding-top: 5rem;
     overflow: hidden;
   }

@@ -17,10 +17,18 @@ const About = () => {
 
         <div className="about__content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            excepturi nulla mollitia officia assumenda accusamus sunt quae
-            molestiae cum omnis sint dolor, voluptas quos rerum repellat nihil
-            ad quas iure!
+            I'm Greydi Lora, a Software Developer working on personal projects
+            improving my skills each day. I'm pursing a degree in Bachelor of
+            Science in Computer Science and will soon be graduated by the end of
+            2022. I enjoy learning and stay on top of the latest technologies. I
+            consider myself to be a very organized person with great
+            communication skills. I am a problem solver with high attention to
+            detail.
+          </p>
+          <p>
+            I consider myself to be a very organized person with great
+            communication skills. I am a problem solver with high attention to
+            detail.
           </p>
 
           <a href="#contact" className="btn btn-primary">
