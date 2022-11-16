@@ -4,7 +4,7 @@ import aboutImg from "../../assets/about-img.jpg";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="about__section">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
@@ -26,7 +26,7 @@ const About = () => {
             detail.
           </p>
           <p>
-            I consider myself to be a very organized person with great
+            Extra text I consider myself to be a very organized person with great
             communication skills. I am a problem solver with high attention to
             detail.
           </p>
