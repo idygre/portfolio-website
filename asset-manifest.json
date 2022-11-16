@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.4f5d60bf.css",
+    "main.js": "/portfolio-website/static/js/main.7758fafa.js",
+    "static/media/portfolio1.jpg": "/portfolio-website/static/media/portfolio1.d2ec4c3c9de4ee7e82b7.jpg",
+    "static/media/about-img.jpg": "/portfolio-website/static/media/about-img.78ae783fcf02c764ca94.jpg",
+    "static/media/resume.pdf": "/portfolio-website/static/media/resume.68bc81b7abc99688fabe.pdf",
+    "static/media/laptop.png": "/portfolio-website/static/media/laptop.5785763cb687ed80e5f7.png",
+    "index.html": "/portfolio-website/index.html",
+    "main.4f5d60bf.css.map": "/portfolio-website/static/css/main.4f5d60bf.css.map",
+    "main.7758fafa.js.map": "/portfolio-website/static/js/main.7758fafa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f5d60bf.css",
+    "static/js/main.7758fafa.js"
+  ]
+}
