@@ -1,14 +1,15 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
+import webmapping from "../../assets/webmapping.png";
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "Portfolio title",
-    github: "https://github.com/idygre/portfolio-website/tree/master",
-    demo: "https://github.com/idygre/portfolio-website/tree/maste",
+    image: webmapping,
+    title: "Web Mapping",
+    github: "https://github.com/idygre/web-mapping",
+    demo: "https://volcanoinfo.netlify.app/",
   },
 
   {
@@ -67,10 +68,10 @@ const Portfolio = () => {
               </div>
               <h3> {title} </h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn">
+                <a href={github} target="_blank" className="btn">
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary">
+                <a href={demo} target="_blank" className="btn btn-primary">
                   Live Demo
                 </a>
               </div>

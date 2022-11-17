@@ -21,6 +21,14 @@ const Nav = () => {
       </a>
 
       <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <BiBook />
+      </a>
+
+      <a
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
@@ -34,14 +42,6 @@ const Nav = () => {
         className={activeNav === "#experience" ? "active" : ""}
       >
         <TbTools />
-      </a>
-
-      <a
-        href="#portfolio"
-        onClick={() => setActiveNav("#portfolio")}
-        className={activeNav === "#portfolio" ? "active" : ""}
-      >
-        <BiBook />
       </a>
 
       <a
