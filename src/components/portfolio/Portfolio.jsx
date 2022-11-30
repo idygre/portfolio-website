@@ -17,7 +17,7 @@ const data = [
     image: IMG1,
     title: "Portfolio title",
     github: "https://github.com/idygre/portfolio-website/tree/master",
-    demo: "https://github.com/idygre/portfolio-website/tree/maste",
+    demo: "https://github.com/idygre/portfolio-website/tree/master",
   },
 
   {
