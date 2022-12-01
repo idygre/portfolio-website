@@ -17,7 +17,7 @@ const data = [
     image: IMG1,
     title: "Portfolio title",
     github: "https://github.com/idygre/portfolio-website/tree/master",
-    demo: "https://github.com/idygre/portfolio-website/tree/maste",
+    demo: "https://github.com/idygre/portfolio-website/tree/master",
   },
 
   {
@@ -68,10 +68,10 @@ const Portfolio = () => {
               </div>
               <h3> {title} </h3>
               <div className="portfolio__item-cta">
-                <a href={github} target="_blank" className="btn">
+                <a href={github} rel="noreferrer" target="_blank" className="btn">
                   Github
                 </a>
-                <a href={demo} target="_blank" className="btn btn-primary">
+                <a href={demo} rel="noreferrer" target="_blank" className="btn btn-primary">
                   Live Demo
                 </a>
               </div>
