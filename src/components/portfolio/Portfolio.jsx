@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import webmapping from "../../assets/webmapping.png";
+import todo from "../../assets/todo.png";
 
 const data = [
   {
@@ -14,10 +15,10 @@ const data = [
 
   {
     id: 2,
-    image: IMG1,
-    title: "Object Detection",
-    github: "https://github.com/idygre/portfolio-website/tree/master",
-    demo: "https://github.com/idygre/portfolio-website/tree/master",
+    image: todo,
+    title: "Todo List",
+    github: "https://github.com/idygre/todo-list-web",
+    demo: "https://idygre-todo-list-web-web-32n2hh.streamlit.app/",
   },
 
   {
@@ -64,7 +65,7 @@ const Portfolio = () => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+                <img className="portfolio__image" src={image} alt={title} />
               </div>
               <h3> {title} </h3>
               <div className="portfolio__item-cta">
