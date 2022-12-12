@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import webmapping from "../../assets/webmapping.png";
 import todo from "../../assets/todo.png";
+import weatherplot from "../../assets/weatherplot.png";
 
 const data = [
   {
@@ -23,10 +24,10 @@ const data = [
 
   {
     id: 3,
-    image: IMG1,
-    title: "Portfolio title",
-    github: "https://github.com/idygre/portfolio-website/tree/master",
-    demo: "https://github.com/idygre/portfolio-website/tree/maste",
+    image: weatherplot,
+    title: "Weather Forecast",
+    github: "https://github.com/idygre/weather-app",
+    demo: "https://idygre-weather-app-main-lijmbs.streamlit.app/",
   },
 
   {
