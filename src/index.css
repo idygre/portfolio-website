@@ -60,7 +60,8 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 6rem;
+  padding-top: 4rem;
 }
 
 section > h2,
@@ -120,9 +121,8 @@ img {
   .container {
     width: var(--container-width-md);
   }
-
   section {
-    margin-top: 6rem;
+    margin-top: 2rem;
   }
 }
 

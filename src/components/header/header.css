@@ -1,12 +1,12 @@
 header {
-  height: 100vh;
+  height: 60vh;
   padding-top: 7rem;
   overflow: hidden;
 }
 
 .header__container {
   text-align: center;
-  height: 100%;
+  height: 50%;
   position: relative;
 }
 
@@ -26,9 +26,10 @@ header {
   gap: 0.9rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 2rem;
 }
 
+/*------The line for the socials------*/
 .header__socials::after {
   content: "";
   width: 1px;
@@ -60,7 +61,7 @@ header {
 /* Media Queries (Medium Devices) */
 @media screen and (max-width: 1024px) {
   header {
-    height: 90vh;
+    height: 50vh;
     padding-top: 5rem;
     overflow: hidden;
   }
@@ -69,7 +70,7 @@ header {
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 50vh;
     padding-top: 5rem;
     overflow: hidden;
   }
