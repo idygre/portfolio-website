@@ -8,6 +8,9 @@ const CTA = () => {
         <a href={Resume} download className="btn">
           Download Resume
         </a>
+        <a href="https://greydiresume.netlify.app/" className="btn">
+          Online Resume
+        </a>
         <a href="#contact" className="btn btn-primary">
           Let's Talk
         </a>
