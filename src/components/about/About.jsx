@@ -17,19 +17,18 @@ const About = () => {
 
         <div className="about__content">
           <p>
-            I'm Greydi Lora, a Software Developer working on personal projects
-            improving my skills each day. I'm pursing a degree in Bachelor of
-            Science in Computer Science and will soon be graduated by the end of
-            2022. I enjoy learning and stay on top of the latest technologies. I
-            consider myself to be a very organized person with great
-            communication skills. I am a problem solver with high attention to
-            detail.
+            I'm a future Software Developer working on personal projects and
+            improving my skills everyday. I enjoy learning and staying on top of
+            the latest technologies. I consider myself to be a very organized
+            individual with a great attention to detail. Previously, I had
+            worked as a team to successfully implement an autonomous
+            follower-leader robot for my senior design project. As an employee
+            and then intern at a software development company, I was able to
+            design a website for an equestrian mobile application. I held weekly
+            meetings to showcase my projects and discuss my progress with the
+            senior development team.
           </p>
-          <p>
-            Extra text I consider myself to be a very organized person with great
-            communication skills. I am a problem solver with high attention to
-            detail.
-          </p>
+          <p></p>
 
           <a href="#contact" className="btn btn-primary">
             Let's Talk

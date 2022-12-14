@@ -29,7 +29,18 @@
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 1rem;
+  text-align: center;
+}
+
+/** Portfolio description **/
+.description-div {
+  margin-bottom: 1.2rem;
+}
+
+.description {
+  text-align: center;
+  color: var(--color-light);
 }
 
 .portfolio__item-cta {

@@ -60,6 +60,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
+                <h4>Python</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
                 <h4>Node JS</h4>
                 <small className="text-light">Experienced</small>
               </div>
@@ -68,7 +76,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>MongoDB</h4>
+                <h4>OpenCV</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -80,7 +88,7 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-
+            {/* 
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
@@ -88,14 +96,7 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Python</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
+            */}
           </div>
         </div>
       </div>
