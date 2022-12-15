@@ -5,9 +5,6 @@ const CTA = () => {
   return (
     <div>
       <div className="cta">
-        <a href={Resume} download className="btn">
-          Download Resume
-        </a>
         <a href="https://greydiresume.netlify.app/" className="btn">
           Online Resume
         </a>
@@ -16,8 +13,8 @@ const CTA = () => {
         </a>
       </div>
       <div className="cta">
-        <a href="#portfolio" className="btn btn-primary">
-          See My Work
+        <a href={Resume} download className="btn btn-primary">
+          Download Resume
         </a>
       </div>
     </div>
