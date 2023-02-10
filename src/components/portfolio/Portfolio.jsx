@@ -4,6 +4,7 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import webmapping from "../../assets/webmapping.png";
 import todo from "../../assets/todo.png";
 import weatherplot from "../../assets/weatherplot.png";
+import youtube from "../../assets/youtube-clone.png";
 
 const data = [
   {
@@ -38,11 +39,11 @@ const data = [
 
   {
     id: 4,
-    image: IMG1,
-    title: "Portfolio title",
-    description: "description",
-    github: "https://github.com/idygre/portfolio-website/tree/master",
-    demo: "https://github.com/idygre/portfolio-website/tree/maste",
+    image: youtube,
+    title: "YouTube Clone",
+    description: "Created with HTML and CSS",
+    github: "https://github.com/idygre/youtube-clone",
+    demo: "https://greydi-youtube-clone.netlify.app/",
   },
 
   {
