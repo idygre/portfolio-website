@@ -45,24 +45,6 @@ const data = [
     github: "https://github.com/idygre/youtube-clone",
     demo: "https://greydi-youtube-clone.netlify.app/",
   },
-
-  {
-    id: 5,
-    image: IMG1,
-    title: "Portfolio title",
-    description: "description",
-    github: "https://github.com/idygre/portfolio-website/tree/master",
-    demo: "https://github.com/idygre/portfolio-website/tree/maste",
-  },
-
-  {
-    id: 6,
-    image: IMG1,
-    title: "Portfolio title",
-    description: "description",
-    github: "https://github.com/idygre/portfolio-website/tree/master",
-    demo: "https://github.com/idygre/portfolio-website/tree/maste",
-  },
 ];
 
 const Portfolio = () => {
