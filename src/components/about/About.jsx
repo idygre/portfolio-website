@@ -17,16 +17,13 @@ const About = () => {
 
         <div className="about__content">
           <p>
-            I'm a future Software Developer working on personal projects and
-            improving my skills everyday. I enjoy learning and staying on top of
-            the latest technologies. I consider myself to be a very organized
-            individual with a great attention to detail. Previously, I had
-            worked as a team to successfully implement an autonomous
-            follower-leader robot for my senior design project. As an employee
-            and then intern at a software development company, I was able to
-            design a website for an equestrian mobile application. I held weekly
-            meetings to showcase my projects and discuss my progress with the
-            senior development team.
+            I am a computer science graduate with a passion for software
+            development. I gained valuable experience during my Python
+            internship and employment at a software development company, where I
+            designed a website for an equestrian mobile application. I held
+            weekly meetings to showcase my projects and progress with senior
+            development teams, and I am constantly learning and working on new
+            projects.
           </p>
           <p></p>
 

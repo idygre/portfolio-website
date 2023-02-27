@@ -12,7 +12,7 @@ const data = [
     image: webmapping,
     title: "Web Mapping",
     description:
-      "Interactive web map application using Python libraries that displays the population of countries by color, elevation levels, and description of volcanoes in the US using JSON data.",
+      "This Python-based web map displays country populations and US volcanoes with labels and icons using JSON data. Users can zoom, toggle layers, and click on countries/volcanoes for info, making for an engaging and informative visualization of geographic data.",
     github: "https://github.com/idygre/web-mapping",
     demo: "https://volcanoinfo.netlify.app/",
   },
@@ -22,7 +22,7 @@ const data = [
     image: todo,
     title: "Todo List",
     description:
-      "A minimalist to do list web application that can add new tasks and mark them as complete. Application was built using Python and the Streamlit framework.",
+      "This Python-based to-do list web app, built with the Streamlit framework, allows users to add and mark tasks as complete. It features a minimalist interface and a simple, intuitive user experience.",
     github: "https://github.com/idygre/todo-list-web",
     demo: "https://idygre-todo-list-web-web-32n2hh.streamlit.app/",
   },
@@ -32,7 +32,7 @@ const data = [
     image: weatherplot,
     title: "Weather Forecast",
     description:
-      "Python weather web application that displays the temperature for the desired city with the selected number of days into a graph as well as the sky condition. Used a weather API to get weather information.",
+      "This Python-based weather app displays current weather conditions and a temperature graph for a desired city using a weather API, allowing users to customize the number of days to view the forecast and stay informed about the weather.",
     github: "https://github.com/idygre/weather-app",
     demo: "https://idygre-weather-app-main-lijmbs.streamlit.app/",
   },
@@ -41,7 +41,8 @@ const data = [
     id: 4,
     image: youtube,
     title: "YouTube Clone",
-    description: "Created with HTML and CSS",
+    description:
+      "This website displays an HTML/CSS-based frontend design clone of YouTube, with clickable thumbnails, profile pictures, and video titles that link to actual videos on the platform. It provides a realistic preview of the YouTube user experience.",
     github: "https://github.com/idygre/youtube-clone",
     demo: "https://greydi-youtube-clone.netlify.app/",
   },

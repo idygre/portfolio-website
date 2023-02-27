@@ -10,6 +10,10 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio__item:hover {
@@ -46,6 +50,7 @@
 
 .portfolio__item-cta {
   display: flex;
+
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
@@ -54,7 +59,7 @@
 /* Media Queries (medium Devices) */
 @media screen and (max-width: 1024px) {
   .portfolio__container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1.2rem;
   }
 }
