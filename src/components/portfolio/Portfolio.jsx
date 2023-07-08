@@ -62,7 +62,9 @@ const Portfolio = () => {
                 <img className="portfolio__image" src={image} alt={title} />
               </div>
 
-              <h3> {title} </h3>
+              <div className="portfolio__item-title">
+                <h3> {title} </h3>
+              </div>
 
               <div className="description-div">
                 <h5 className="description"> {description} </h5>

@@ -1,7 +1,7 @@
 .portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2.5rem;
 }
 
 .portfolio__item {
@@ -28,12 +28,12 @@
 
 .portfolio__image {
   width: 100%;
-  height: 200px;
+  height: 100%;
   vertical-align: middle;
   object-fit: cover;
 }
 
-.portfolio__item h3 {
+.portfolio__item-title {
   margin: 1.2rem 0 1rem;
   text-align: center;
 }
@@ -59,7 +59,7 @@
 /* Media Queries (medium Devices) */
 @media screen and (max-width: 1024px) {
   .portfolio__container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
   }
 }
