@@ -1,8 +1,7 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
+import amazon from "../../assets/amazon.png";
 import webmapping from "../../assets/webmapping.png";
-import todo from "../../assets/todo.png";
 import weatherplot from "../../assets/weatherplot.png";
 import youtube from "../../assets/youtube-clone.png";
 
@@ -12,19 +11,19 @@ const data = [
     image: webmapping,
     title: "Web Mapping",
     description:
-      "This Python-based web map displays country populations and US volcanoes with labels and icons using JSON data. Users can zoom, toggle layers, and click on countries/volcanoes for info, making for an engaging and informative visualization of geographic data.",
+      "This Python-based web map displays country populations and US volcanoes with labels and icons using JSON data. Users can zoom, toggle layers, and click on countries/volcanoes for info.",
     github: "https://github.com/idygre/web-mapping",
     demo: "https://volcanoinfo.netlify.app/",
   },
 
   {
     id: 2,
-    image: todo,
-    title: "Todo List",
+    image: amazon,
+    title: "Amazon Clone",
     description:
-      "This Python-based to-do list web app, built with the Streamlit framework, allows users to add and mark tasks as complete. It features a minimalist interface and a simple, intuitive user experience.",
-    github: "https://github.com/idygre/todo-list-web",
-    demo: "https://idygre-todo-list-web-web-32n2hh.streamlit.app/",
+      "Built an Amazon clone website with functionality. Used HTML, CSS, and JavaScript. Can choose quantity of items, add to cart, view orders and cart.",
+    github: "https://github.com/idygre/js-amazon-project",
+    demo: "https://amazonclonegreydi.netlify.app/",
   },
 
   {
